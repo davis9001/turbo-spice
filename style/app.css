@@ -1,3 +1,12 @@
+* {
+    height: 100% !important;
+}
+.hitrow {
+    height: 50% !important;
+}
+.hitrow li {
+    padding: 1em;
+}
 .hitpad {
     background: black;
     border: 4px solid gray;
@@ -5,5 +14,7 @@
     text-align: center;
     font-size: 1.2em;
     line-height: 7rem;
-    margin:3em;
+    height: inherit;
+    width: 100%;
+    height:90% !important;
 }
